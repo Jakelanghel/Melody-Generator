@@ -19,7 +19,7 @@ melody = [root_note + random.choice(scale) for _ in range(num_notes)]
 
 # Note timing - work in quarter notes and convert
 beats_per_note = 0.5  # eighth notes
-ppq = 960  # Standard PPQ, but we'll convert properly
+ppq = 960  # Standard PPQ, but we'll convert io
 
 # Insert notes
 for i, note in enumerate(melody):
